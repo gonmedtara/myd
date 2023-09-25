@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.private-container {
+    background: url('./public-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.private-container__header{
+  position: absolute;
+  width: 100%;
+}
+.logo{
+    height: 82px;
+    width: 82px;
+}
